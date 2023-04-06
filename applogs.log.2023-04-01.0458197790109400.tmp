@@ -1,0 +1,1 @@
+2023-04-01T04:15:09.343+05:30  WARN 15200 --- [configWatchTaskScheduler-1] o.s.cloud.consul.config.ConfigWatch      : Error querying consul Key/Values for context 'config/application,default/'. Message: java.net.SocketTimeoutException: Read timed out

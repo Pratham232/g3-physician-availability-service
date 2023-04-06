@@ -1,0 +1,44 @@
+2023-04-06T02:44:40.687+05:30  INFO 14344 --- [main] .a.PhysicianAvailabilityApplicationTests : Starting PhysicianAvailabilityApplicationTests using Java 17.0.6 with PID 14344 (started by prath in C:\Users\prath\OneDrive\Desktop\finalrepo\final_repo\Microservices\g3-physician-availability-service)
+2023-04-06T02:44:40.700+05:30  INFO 14344 --- [main] .a.PhysicianAvailabilityApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-04-06T02:44:42.398+05:30  INFO 14344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-06T02:44:42.662+05:30  INFO 14344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 248 ms. Found 2 JPA repository interfaces.
+2023-04-06T02:44:43.802+05:30  INFO 14344 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fc938cf4-8a29-33ab-8889-ecfc8addbce2
+2023-04-06T02:44:44.890+05:30  INFO 14344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-06T02:44:44.957+05:30  INFO 14344 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-06T02:44:45.285+05:30  INFO 14344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-06T02:44:45.394+05:30  INFO 14344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-06T02:44:45.681+05:30  INFO 14344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-06T02:44:46.010+05:30  INFO 14344 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10ed3435
+2023-04-06T02:44:46.014+05:30  INFO 14344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-06T02:44:46.137+05:30  INFO 14344 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-06T02:44:47.337+05:30  INFO 14344 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-06T02:44:47.353+05:30  INFO 14344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T02:44:48.044+05:30  WARN 14344 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-06T02:44:49.519+05:30  WARN 14344 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-06T02:44:49.530+05:30  INFO 14344 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-06T02:44:49.641+05:30  INFO 14344 --- [main] .a.PhysicianAvailabilityApplicationTests : Started PhysicianAvailabilityApplicationTests in 10.497 seconds (process running for 13.16)
+2023-04-06T02:44:49.805+05:30  INFO 14344 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-06T02:44:49.805+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-06T02:44:49.808+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-04-06T02:44:50.087+05:30  INFO 14344 --- [main] c.c.a.c.PhysicianAvailabilityControllers : Physician Availability list fetched successfully
+2023-04-06T02:44:50.263+05:30  INFO 14344 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-06T02:44:50.264+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-06T02:44:50.265+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-04-06T02:44:50.331+05:30  INFO 14344 --- [main] c.c.a.c.PhysicianAvailabilityControllers : Physician availability updated successfully
+2023-04-06T02:44:50.352+05:30  INFO 14344 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-06T02:44:50.353+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-06T02:44:50.356+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-04-06T02:44:50.364+05:30  INFO 14344 --- [main] c.c.a.c.PhysicianAvailabilityControllers : Available physician fetched successfully
+2023-04-06T02:44:50.382+05:30  INFO 14344 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-06T02:44:50.382+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-06T02:44:50.386+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-04-06T02:44:50.418+05:30  INFO 14344 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-06T02:44:50.418+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-06T02:44:50.419+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-04-06T02:44:50.425+05:30  INFO 14344 --- [main] c.c.a.c.PhysicianAvailabilityControllers : Physician availability deleted successfully
+2023-04-06T02:44:50.440+05:30  INFO 14344 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-04-06T02:44:50.441+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-04-06T02:44:50.445+05:30  INFO 14344 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-04-06T02:44:50.586+05:30  INFO 14344 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T02:44:50.781+05:30  INFO 14344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-06T02:44:50.792+05:30  INFO 14344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
